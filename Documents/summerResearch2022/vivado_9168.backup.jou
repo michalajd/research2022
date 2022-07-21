@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul 14 14:00:59 2022
+# Process ID: 9168
+# Current directory: C:/Users/ehgartns/Documents/summerReasearch2022
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16048 C:\Users\ehgartns\Documents\summerReasearch2022\hw_pq_project.xpr
+# Log file: C:/Users/ehgartns/Documents/summerReasearch2022/vivado.log
+# Journal file: C:/Users/ehgartns/Documents/summerReasearch2022\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq_project.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1

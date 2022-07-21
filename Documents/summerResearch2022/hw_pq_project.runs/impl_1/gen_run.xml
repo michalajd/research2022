@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1657047001">
+  <File Type="BITSTR-BMM" Name="heap_pq_hw_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="heap_pq_hw_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="heap_pq_hw_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="heap_pq_hw_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="heap_pq_hw.tcl"/>
+  <File Type="OPT-TIMING" Name="heap_pq_hw_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="heap_pq_hw_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="heap_pq_hw_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="heap_pq_hw_reports.tcl"/>
+  <File Type="OPT-DRC" Name="heap_pq_hw_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="heap_pq_hw.hwdef"/>
+  <File Type="PWROPT-DCP" Name="heap_pq_hw_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="heap_pq_hw_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="heap_pq_hw_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="heap_pq_hw_placed.dcp"/>
+  <File Type="PLACE-IO" Name="heap_pq_hw_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="heap_pq_hw_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="heap_pq_hw_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="heap_pq_hw_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="heap_pq_hw_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="heap_pq_hw_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="heap_pq_hw_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="heap_pq_hw_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="heap_pq_hw_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="heap_pq_hw.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="heap_pq_hw_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="heap_pq_hw_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="heap_pq_hw_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="heap_pq_hw.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="heap_pq_hw_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="heap_pq_hw_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="heap_pq_hw_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="heap_pq_hw_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="heap_pq_hw_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="heap_pq_hw_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="heap_pq_hw_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="heap_pq_hw.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="heap_pq_hw_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="heap_pq_hw_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="heap_pq_hw_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="heap_pq_hw_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="heap_pq_hw_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="heap_pq_hw_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="heap_pq_hw_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="heap_pq_hw_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="heap_pq_hw_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="heap_pq_hw_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="heap_pq_hw_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="heap_pq_hw_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="heap_pq_hw_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="heap_pq_hw_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="heap_pq_hw_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="heap_pq_hw_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="heap_pq_hw_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="heap_pq_hw_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="heap_pq_hw_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="heap_pq_hw_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="heap_pq_hw_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="heap_pq_hw.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="heap_pq_hw_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="heap_pq_hw.rbt"/>
+  <File Type="BITSTR-NKY" Name="heap_pq_hw.nky"/>
+  <File Type="PDI-FILE" Name="heap_pq_hw.pdi"/>
+  <File Type="RCFI_FILE" Name="heap_pq_hw.rcfi"/>
+  <File Type="CFI_FILE" Name="heap_pq_hw.cfi"/>
+  <File Type="RNPI_FILE" Name="heap_pq_hw.rnpi"/>
+  <File Type="NPI_FILE" Name="heap_pq_hw.npi"/>
+  <File Type="RBD_FILE" Name="heap_pq_hw.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="heap_pq_hw.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="heap_pq_hw.sysdef"/>
+  <File Type="BG-BGN" Name="heap_pq_hw.bgn"/>
+  <File Type="BG-DRC" Name="heap_pq_hw.drc"/>
+  <File Type="RDI-RDI" Name="heap_pq_hw.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/hw_pq/counter.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_hw/debounce.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/dec_3_8_n.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/pq_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/mem_swsr.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/mux8.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_hw/period_enb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/pq_if.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_hw/sevenseg_ctl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_hw/sevenseg_ext_n.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_hw/single_pulser.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_hw/heap_pq_hw.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_tb.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/heap_pq/heap_pq_wrapper.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/pq_key_compare.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/pq_mux2.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/hw_pq/pq_rd_if.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="heap_pq_hw"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/hw_pq/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

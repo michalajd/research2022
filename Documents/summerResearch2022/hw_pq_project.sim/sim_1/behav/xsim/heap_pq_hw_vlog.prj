@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../hw_pq/counter.sv" \
+"../../../../hw_pq/heap_pq/heap_pq_hw/debounce.sv" \
+"../../../../hw_pq/dec_3_8_n.sv" \
+"../../../../hw_pq/pq_pkg.sv" \
+"../../../../hw_pq/heap_pq/heap_pq.sv" \
+"../../../../hw_pq/heap_pq/mem_swsr.sv" \
+"../../../../hw_pq/mux8.sv" \
+"../../../../hw_pq/heap_pq/heap_pq_hw/period_enb.sv" \
+"../../../../hw_pq/pq_if.sv" \
+"../../../../hw_pq/heap_pq/heap_pq_hw/sevenseg_ctl.sv" \
+"../../../../hw_pq/heap_pq/heap_pq_hw/sevenseg_ext_n.sv" \
+"../../../../hw_pq/heap_pq/heap_pq_hw/single_pulser.sv" \
+"../../../../hw_pq/heap_pq/heap_pq_hw/heap_pq_hw.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

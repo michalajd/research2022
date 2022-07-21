@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 16 11:02:29 2022
+# Process ID: 9392
+# Current directory: C:/Users/ehgartns/Documents/summerReasearch2022
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5336 C:\Users\ehgartns\Documents\summerReasearch2022\hw_pq_project.xpr
+# Log file: C:/Users/ehgartns/Documents/summerReasearch2022/vivado.log
+# Journal file: C:/Users/ehgartns/Documents/summerReasearch2022\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq_project.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq_project.runs/impl_1/heap_pq_hw.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

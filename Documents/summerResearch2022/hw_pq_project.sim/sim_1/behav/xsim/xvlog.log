@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq_hw/debounce.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/dec_3_8_n.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dec_3_8_n
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/pq_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module heap_pq
+INFO: [VRFC 10-2458] undeclared symbol replace, assumed default net type wire [C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq.sv:23]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/mem_swsr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_swsr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/mux8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq_hw/period_enb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module period_enb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/pq_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq_hw/sevenseg_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevenseg_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq_hw/sevenseg_ext_n.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevenseg_ext_n
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq_hw/single_pulser.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_pulser
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq/heap_pq/heap_pq_hw/heap_pq_hw.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module heap_pq_hw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ehgartns/Documents/summerReasearch2022/hw_pq_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

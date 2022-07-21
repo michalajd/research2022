@@ -1,0 +1,1 @@
+14:33:16.307 WARN  - Unexpected exception while copying file C:\Xilinx\14.7\ISE_DS\EDK\sw\lib\hwplatform_templates\MicroZed_hw_platform\ps7_summary.html: java.io.FileNotFoundException: C:\Xilinx\14.7\ISE_DS\EDK\sw\lib\hwplatform_templates\MicroZed_hw_platform\ps7_summary.html (The system cannot find the file specified) 
